@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+  
+  padding:10px;
+}
+.weath{
+  margin-top:85px;
+}
+#img{
+  padding-right: 5px;
+}
+#daily{
+  color:red;
+  font-weight: 500;
+}
+#weather{
+  font-size: 21px;
+}
+#nav{
+  border-radius: 7px;
+}
+#navbarDropdown{
+  font-size: 21px;
+}
+#main{
+  padding-top: 22px;
+}
+#temp{
+  
+  display:inline;
+  font-size: 50px;
+}
+.data{
+  font-size: 28px;
+  font-weight: 550;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+@media (min-width: 800px){
+.col-sm-6 {
+    flex: 0 0 auto;
+    width: 25%;
+}
+}
+#btn{
+  color: white;
+    background-color: black;
+    padding: 7px 10px;
+    border: none;
+    margin: 5px;
+    border-radius: 5px;
+    outline: none;
+}
+#input{
+  height: 38px;
+    width: 40%;
+    border: none;
+    border-bottom: 2px black solid;
+    margin: 5px;
+}
+@media(max-width:500px){
+  #input{
+    width:75%
+  }
+}
+.card{
+  margin-top: 25px;
+}
+.line{
+  border-bottom: 2px grey solid;
+}
